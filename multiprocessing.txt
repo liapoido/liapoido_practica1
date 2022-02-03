@@ -1,0 +1,130 @@
+Script iniciado en 2022-02-03 23:26:32+01:00 [TERM="xterm-256color" TTY="/dev/pts/129" COLUMNS="110" LINES="36"]
+]0;liapoido@simba: ~[01;32mliapoido@simba[00m:[01;34m~[00m$ git clone https://github.com/liapoido/liapoido_practica1.git
+Clonando en 'liapoido_practica1'...
+remote: Enumerating objects: 15, done.[K
+remote: Counting objects:   6% (1/15)[K
+remote: Counting objects:  13% (2/15)[K
+remote: Counting objects:  20% (3/15)[K
+remote: Counting objects:  26% (4/15)[K
+remote: Counting objects:  33% (5/15)[K
+remote: Counting objects:  40% (6/15)[K
+remote: Counting objects:  46% (7/15)[K
+remote: Counting objects:  53% (8/15)[K
+remote: Counting objects:  60% (9/15)[K
+remote: Counting objects:  66% (10/15)[K
+remote: Counting objects:  73% (11/15)[K
+remote: Counting objects:  80% (12/15)[K
+remote: Counting objects:  86% (13/15)[K
+remote: Counting objects:  93% (14/15)[K
+remote: Counting objects: 100% (15/15)[K
+remote: Counting objects: 100% (15/15), done.[K
+remote: Compressing objects:   7% (1/14)[K
+remote: Compressing objects:  14% (2/14)[K
+remote: Compressing objects:  21% (3/14)[K
+remote: Compressing objects:  28% (4/14)[K
+remote: Compressing objects:  35% (5/14)[K
+remote: Compressing objects:  42% (6/14)[K
+remote: Compressing objects:  50% (7/14)[K
+remote: Compressing objects:  57% (8/14)[K
+remote: Compressing objects:  64% (9/14)[K
+remote: Compressing objects:  71% (10/14)[K
+remote: Compressing objects:  78% (11/14)[K
+remote: Compressing objects:  85% (12/14)[K
+remote: Compressing objects:  92% (13/14)[K
+remote: Compressing objects: 100% (14/14)[K
+remote: Compressing objects: 100% (14/14), done.[K
+remote: Total 15 (delta 5), reused 0 (delta 0), pack-reused 0[K
+Desempaquetando objetos:   6% (1/15)   
+Desempaquetando objetos:  13% (2/15)   
+Desempaquetando objetos:  20% (3/15)   
+Desempaquetando objetos:  26% (4/15)   
+Desempaquetando objetos:  33% (5/15)   
+Desempaquetando objetos:  40% (6/15)   
+Desempaquetando objetos:  46% (7/15)   
+Desempaquetando objetos:  53% (8/15)   
+Desempaquetando objetos:  60% (9/15)   
+Desempaquetando objetos:  66% (10/15)   
+Desempaquetando objetos:  73% (11/15)   
+Desempaquetando objetos:  80% (12/15)   
+Desempaquetando objetos:  86% (13/15)   
+Desempaquetando objetos:  93% (14/15)   
+Desempaquetando objetos: 100% (15/15)   
+Desempaquetando objetos: 100% (15/15), listo.
+]0;liapoido@simba: ~[01;32mliapoido@simba[00m:[01;34m~[00m$ python /home&[K/liapoido_practica/0_procesos.py
+python: can't open file '/home/liapoido_practica/0_procesos.py': [Errno 2] No such file or directory
+]0;liapoido@simba: ~[01;32mliapoido@simba[00m:[01;34m~[00m$ python /home/liapoido_practica/0_procesos.py[C1/0_procesos.py
+python: can't open file '/home/liapoido_practica1/0_procesos.py': [Errno 2] No such file or directory
+]0;liapoido@simba: ~[01;32mliapoido@simba[00m:[01;34m~[00m$ python /home/liapoido_practica1/0_procesos.py[C/liapoido_practica1/0_procesos.py
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl/liapoido_practica1/0_procesos.pyi/liapoido_practica1/0_procesos.pya/liapoido_practica1/0_procesos.pyp/liapoido_practica1/0_procesos.pyo/liapoido_practica1/0_procesos.pyi/liapoido_practica1/0_procesos.pyd/liapoido_practica1/0_procesos.pyo/liapoido_practica1/0_procesos.py
+fin
+('hola', 0)
+('hola', 0)
+('hola', 1)
+('hola', 1)
+('hola', 2)
+('hola', 3)
+('hola', 2)
+('hola', 3)
+('hola', 4)
+('hola', 4)
+]0;liapoido@simba: ~[01;32mliapoido@simba[00m:[01;34m~[00m$ ^C
+]0;liapoido@simba: ~[01;32mliapoido@simba[00m:[01;34m~[00m$ python /home/liapoido/liapoido_practica1/0_procesos.py
+fin
+('hola', 0)
+('hola', 0)
+('hola', 1)
+('hola', 2)
+('hola', 3)
+('hola', 4)
+('hola', 1)
+('hola', 2)
+('hola', 3)
+('hola', 4)
+]0;liapoido@simba: ~[01;32mliapoido@simba[00m:[01;34m~[00m$ python /home/liapoido/liapoido_practica1/0_procesos.py[1P_procesos.py1_procesos.py
+  File "/home/liapoido/liapoido_practica1/1_procesos.py", line 7
+    print (f"hola soy {value} vuelta {i}")
+                                        ^
+SyntaxError: invalid syntax
+]0;liapoido@simba: ~[01;32mliapoido@simba[00m:[01;34m~[00m$ python /home/liapoido/liapoido_practica1/1_procesos.py
+  File "/home/liapoido/liapoido_practica1/1_procesos.py", line 7
+    print (f"hola soy {value} vuelta {i})
+                                        ^
+SyntaxError: EOL while scanning string literal
+]0;liapoido@simba: ~[01;32mliapoido@simba[00m:[01;34m~[00m$ python /home/liapoido/liapoido_practica1/1_procesos.py[1P_procesos.py2_procesos.py
+  File "/home/liapoido/liapoido_practica1/2_procesos.py", line 9
+    print (f"hola soy {current_process().name}, " + \
+                                                ^
+SyntaxError: invalid syntax
+]0;liapoido@simba: ~[01;32mliapoido@simba[00m:[01;34m~[00m$ python /home/liapoido/liapoido_practica1/2_procesos.py
+  File "/home/liapoido/liapoido_practica1/2_procesos.py", line 18
+    lp.append(Process(target=f, name=f"ana_{i}"))
+                                              ^
+SyntaxError: invalid syntax
+]0;liapoido@simba: ~[01;32mliapoido@simba[00m:[01;34m~[00m$ python /home/liapoido/liapoido_practica1/2_procesos.py[1P_procesos.py3_procesos.py
+  File "/home/liapoido/liapoido_practica1/3_procesos.py", line 9
+    print (f"hola soy {current_process().pid}, vuelta: {i}, contador: {c.value}")
+                                                                               ^
+SyntaxError: invalid syntax
+]0;liapoido@simba: ~[01;32mliapoido@simba[00m:[01;34m~[00m$ python /home/liapoido/liapoido_practica1/3_procesos.py[1P_procesos.py4_procesos.py
+  File "/home/liapoido/liapoido_practica1/4_procesos.py", line 8
+    print (f"hola soy {current_process().pid}, vuelta: {i}, contador: {c.value}")
+                                                                               ^
+SyntaxError: invalid syntax
+]0;liapoido@simba: ~[01;32mliapoido@simba[00m:[01;34m~[00m$ python /home/liapoido/liapoido_practica1/4_procesos.py
+  File "/home/liapoido/liapoido_practica1/4_procesos.py", line 8
+    print (f"hola soy {current_process().pid}, vuelta: {i}, contador: {c.value}")
+                                                                               ^
+SyntaxError: invalid syntax
+]0;liapoido@simba: ~[01;32mliapoido@simba[00m:[01;34m~[00m$ python /home/liapoido/liapoido_practica1/4_procesos.py[1P_procesos.py1_procesos.py
+  File "/home/liapoido/liapoido_practica1/1_procesos.py", line 8
+    print (f"hola soy {value} vuelta {i}")
+                                        ^
+SyntaxError: invalid syntax
+]0;liapoido@simba: ~[01;32mliapoido@simba[00m:[01;34m~[00m$ python /home/liapoido/liapoido_practica1/1_procesos.py
+  File "/home/liapoido/liapoido_practica1/1_procesos.py", line 8
+    print (f"hola soy {value} vuelta {i} ")
+                                         ^
+SyntaxError: invalid syntax
+]0;liapoido@simba: ~[01;32mliapoido@simba[00m:[01;34m~[00m$ exit
+
+Script terminado en 2022-02-03 23:38:21+01:00 [CÓDIGO_SALIDA_ORDEN="1"]
